@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='c:/Documents and Settings/michaelwest/.pik/rubies/Ruby-200-p0/lib/pkgconfig'
+let g:netrw_dirhist_2='C:/Ruby200/lib/ruby/gems/2.0.0/gems/tiny_tds-0.5.1-x86-mingw32'
+let g:netrw_dirhist_3='C:/Users/michaelwest/vimfiles'

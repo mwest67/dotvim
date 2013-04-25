@@ -1,0 +1,39 @@
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = http://github.com/sjl/gundo.vim.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-genutils"]
+	path = bundle/vim-genutils
+	url = https://github.com/clones/vim-genutils.git
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/vim-l9"]
+	path = bundle/vim-l9
+	url = https://github.com/clones/vim-l9.git
+[submodule "bundle/xmpfilter"]
+	path = bundle/xmpfilter
+	url = https://github.com/t9md/vim-ruby-xmpfilter.git
+[submodule "bundle/vbnet"]
+	path = bundle/vbnet
+	url = https://github.com/vim-scripts/vbnet.vim.git
+[submodule "bundle/matrix"]
+	path = bundle/matrix
+	url = https://github.com/uguu-org/vim-matrix-screensaver
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = https://github.com/wincent/Command-T.git
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/abolish"]
+	path = bundle/abolish
+	url = https://github.com/tpope/vim-abolish.git
