@@ -7,5 +7,5 @@ function! RunShellCommand(cmdline)
   call setline(2,substitute(a:cmdline,'.','=','g'))
   execute 'silent $read !'.escape(a:cmdline,'%#')
   setlocal nomodifiable
-  1
+  return 1
 endfunction
