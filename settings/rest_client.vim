@@ -34,3 +34,12 @@ function! GetVisualSelection()
   let lines[0] = lines[0][col1 - 1:]
   return join(lines, "\n")
 endfunction
+
+function! Sum() range
+  let content = GetVisualSelection()
+  let sum = 0
+  for i in split(content, "\n")
+    let sum = sum + i
+  endfor
+  echo sum
+endfunction

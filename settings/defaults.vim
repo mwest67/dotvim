@@ -3,11 +3,7 @@ filetype plugin on
 runtime macros/matchit.vim
 
 " Gui Stuff
-if has("gui_running")
-  colorscheme FreshCut
-else
-  colorscheme railscasts
-endif
+colorscheme railscasts
 
 set guifont=Consolas:h10:cANSI
 set guioptions-=T
@@ -96,14 +92,14 @@ endif
 
 
 if has("gui_running")
-  set lines=50 columns=120
+  set lines=50 columns=180
 else
   " This is console Vim.
   if exists("+lines")
     set lines=50
   endif
   if exists("+columns")
-    set columns=120
+    set columns=180
   endif
 endif
 
@@ -115,3 +111,6 @@ endif
 set backupdir=c:\tmp\vimtemp
 set directory=c:\tmp\vimtemp
 set shell=C:\Windows\system32\cmd.exe\ /d
+
+set diffopt+=iwhite
+set diffexpr=""
